@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(233, 224, 201);
+}
+
+.card {
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    width: 300px;
+    margin: 20px;
+    text-align: center;
+    transition: transform 0.4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card:hover {
+    transform: scale(1.04);
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 15px;
+}
+
+.card h2 {
+    font-size: 21px;
+    margin: 10px 0;
+    color: #206830;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
