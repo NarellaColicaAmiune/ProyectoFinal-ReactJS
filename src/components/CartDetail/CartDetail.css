@@ -1,0 +1,94 @@
+.cartContainer {
+    max-width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.cartItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cartItem p {
+    margin: 5px 0;
+    color: #555;
+    font-size: 20px;
+}
+
+.cartTitle {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.imgCart {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+button {
+    padding: 8px;
+    font-size: 16px;
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+button:hover {
+    background-color: #c9302c;
+}
+
+button:active {
+    background-color: #ac2925;
+}
+
+.cartButtons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.cartButtons button:last-child {
+    background-color: #d44b47;
+}
+
+.cartButtons button:last-child:hover {
+    background-color: #c9302c;
+}
+
+.cartButtons button:last-child:active {
+    background-color: #ac2925;
+}
+
+.linkComprar {
+    text-decoration: none;
+    color: #f9f9f9;
+    background-color: #449d44;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cartTotal {
+    text-align: right;
+    margin-top: 20px;
+    color: #333;
+}
+
+.cartTotal h3 {
+    margin-bottom: 10px;
+}

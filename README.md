@@ -1,8 +1,16 @@
-# React + Vite
+# La Perla Productos Regionales
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Autora
+**Nombre:** Narella Cólica Amiune.
 
-Currently, two official plugins are available:
+# Descripción del proyecto
+*La Perla Productos Regionales* es un ecommerce enfocado en la venta de productos regionales. El objetivo principal es ofrecer a los usuarios una plataforma fácil de usar donde puedan comprar productos típicos provenientes de Catamarca - Argentina, promoviendo la cultura y la gastronomía local. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Tecnologías utilizadas
+**HTML:** Para la estructura y el contenido del sitio.\
+**CSS:** Para el diseño y la presentación visual de la plataforma.\
+**JavaScript:** Para la interacción dinámica en el frontend.\
+**React JS:** Para la creación de interfaces de usuario interactivas y la gestión eficiente del estado de la aplicación.
+
+# Estado del proyecto
+Este proyecto ha sido completado y está en su versión final.

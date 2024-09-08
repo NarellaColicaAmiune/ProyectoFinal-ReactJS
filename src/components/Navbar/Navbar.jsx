@@ -12,13 +12,13 @@ const Navbar = () => {
             <div className="navbar-links">
                 <ul>
                     <li>
-                        <NavLink to="/categoria/mermeladas-caseras" activeClassName="active">Mermeladas Caseras</NavLink>
+                        <NavLink to="/category/mermeladas-caseras" className={({isActive}) => isActive ? "link active" : "link"}>Mermeladas Caseras</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/categoria/frutos-secos" activeClassName="active">Frutos Secos</NavLink>
+                        <NavLink to="/category/frutos-secos" className={({isActive}) => isActive ? "link active" : "link"}>Frutos Secos</NavLink>
                     </li>
                     <li>
-                        <NavLink to="/categoria/aromaticas" activeClassName="active">Aromáticas</NavLink>
+                        <NavLink to="/category/aromaticas" className={({isActive}) => isActive ? "link active" : "link"}>Aromáticas</NavLink>
                     </li>
                 </ul>
             </div>

@@ -1,0 +1,41 @@
+.cartFinCompra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    max-width: 50%;
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cartProductos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btnComprar {
+    background-color: #229422;
+    margin-top: 10px;
+}
+
+.btnComprar:hover {
+    background-color: #30ad30;
+}
+
+.cartForm {
+    margin: 20px;
+}
+
+.cartForm h3 {
+    text-align: center;
+    margin-bottom: 10px
+}
